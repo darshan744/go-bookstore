@@ -1,4 +1,4 @@
-module github.com/darshan744/go-rest-server
+module github.com/darshan744/go-bookstore
 
 go 1.24.4
 
