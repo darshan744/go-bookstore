@@ -1,9 +1,9 @@
+// Handles incoming Request for the server
 package controllers
 
 import (
 	"fmt"
 	"net/http"
-
 	"github.com/darshan744/go-bookstore/configs"
 	"github.com/darshan744/go-bookstore/models"
 	"github.com/gin-gonic/gin"

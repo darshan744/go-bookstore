@@ -5,8 +5,8 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+// Registering the route endpoints
 func RegisterRoutes(router *gin.Engine) {
-
 	router.GET("/book", controllers.GetBook)
 	router.POST("/book", controllers.CreateBook)
 	router.GET("/book/:bookId", controllers.GetBookById)

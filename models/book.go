@@ -14,9 +14,12 @@ type Book struct {
 	Publication string `json:"publication" binding:"required"`
 }
 
+// This represents the incoming params
 type BookUri struct {
 	BookId string `uri:"bookId" binding:"required"`
 }
+
+// This represents incoming body for updating the book
 type BookUpdate struct {
 	
 	Name        string `gorm:"not null" json:"name"`

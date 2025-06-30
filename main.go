@@ -1,13 +1,12 @@
 package main
 
 import (
-	"log"
-	"os"
-
 	"github.com/darshan744/go-bookstore/configs"
 	"github.com/darshan744/go-bookstore/routes"
 	"github.com/gin-gonic/gin"
 	"github.com/joho/godotenv"
+	"log"
+	"os"
 )
 
 func init() {
